@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-Core sign_up</title>
+    <link href="css/sign_up.css" type="text/css" rel="stylesheet">
+    <link href="logo.png" type="image/logo" rel="shortcut icon" >
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="logo" class="logo">
+        <h2>N-core</h2>
+    </header>
+    <br>
+    <hr>
+    <div class="title">
+        <div class="title1">
+            <h3>Already have an account? <a href="none">login</a></h3>
+        </div>    
+        <div class="title2">
+            <h1>Sign up for free to start listening.</h1>
+        </div>
+        <div class="title3">
+            <h5><a href="None">Use phone number instead.</a></h5>
+        </div>
+    </div>
+    <form method="post" action="player.html">
+        <section class="a">
+            <div>
+                <h3>What's your E-mail?</h3>
+                <input type="text" name="E-mail" placeholder="Enter your E-mail.">    
+            </div>
+        </section>
+       <section class="a">
+            <div>
+                <h3>Confirm your E-mail.</h3>
+                <input type="text" name="mail again" placeholder="Enter your E-mail again.">
+            </div>
+       </section>
+        <section class="p">
+            <div>
+                <h3>Create a Password.</h3>
+                <input type="password" name="pas" minlength="8" maxlength="16" placeholder="Create a password.">
+            </div>
+        </section>
+        <section class="a">
+            <div>
+                <h3>User Name:</h3>
+                <input type="text" name="un" placeholder="User Name">
+            </div>
+        </section>
+       <section class="d">
+        <div>
+            <h3>What your date of birth?</h3>
+            <table class="birth">
+                <tr>
+                    <td>Year</td>
+                    <td>Month</td>
+                    <td>Day</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="year" minlength="4" maxlength="4" size="5" placeholder="YYYY"></td>
+                    <td>
+                        <select name="month" required>
+                            <option value="" disabled selected hidden>Month</option>
+                            <option value="Jan">Jan
+                            <option value="Feb">Feb
+                            <option value="Mar">Mar
+                            <option value="April">April
+                            <option value="May">May
+                            <option value="June">June
+                            <option value="July">July
+                            <option value="Aug">Aug
+                            <option value="Sep">Sep
+                            <option value="Oct">Oct
+                            <option value="Nov">Nov
+                            <option value="Dec">Dec
+                        </select>
+                    </td>
+                    <td><input type="text" name="date" minlength="2" maxlength="2" size="3" placeholder="DD"></td>
+                </tr>
+            </table>                  
+        </div>
+       </section>
+        <section class="g">
+            <div>
+                <h3>What's your gender?</h3>
+                <input type="radio" name="initial">Male
+                <input type="radio" name="initial">female
+                <input type="radio" name="initial">Non-binary
+            </div>
+        </section>
+
+        <div>
+            <h5>By clicking on sign-up, you agree to N-Core's
+                <a href="None">Team and Condition of Use.</a></h5>
+        </div>
+        <div>
+            <input type="submit" value="Sign-Up" placeholder="Sign-Up">
+        </div>
+    </form>    
+</body>
+</html>
