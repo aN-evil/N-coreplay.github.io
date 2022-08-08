@@ -1,9 +1,9 @@
 let songs = [
     {
-        name: 'alon',
-        path: 'songs/Alone.mp3',
-        artist: 'alan wakar',
-        cover: 'img/ar/alan.jpg',
+        name: 'I Did Something Bad',
+        path: 'songs/I Did Something Bad.mp3',
+        artist: 'Taylor Swift',
+        cover: 'img/ar/TT.jpeg',
     },
     {
         name: 'alon',
@@ -12,10 +12,9 @@ let songs = [
         cover: 'img/ar/alan.jpg',
     },
     {
-        name: 'alon',
-        path: 'songs/Alone.mp3',
-        artist: 'alan wakar',
-        cover: 'img/ar/alan.jpg',
-    },
-    
+        name: 'Darkside',
+        path: 'songs/Darkside.mp3',
+        artist: 'Taylor Swift',
+        cover: 'img/ar/TT.jpg',
+    },  
 ]
