@@ -26,7 +26,7 @@ header{
 
 header .n1{
     width: 350px;
-    height: 620px;
+    height: 710px;
     background-color: #303034;
     display: block;
     position: relative;
@@ -89,22 +89,24 @@ header .n1 .d1 h2:hover{
     color: #fff;
 }
 
-header .n1 .d1 .hr{
+header .n1 .hr{
     width: 300px;
     height: 2px;
     /* padding: 5px; */
-    background-color: #000;
+    background-color: #a4a8b4;
     margin-left: 25px;
 }
 
 header .n1 .d2{
-    height: 440px;
+    height: 530px;
     /* border: 3px solid yellow; */
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 
 header .n1 .d2 .d21{ 
+    position: fixed;
     display: flex;
+    top: 185px;
     /* border: 1px solid #000; */
 }
 
@@ -139,10 +141,12 @@ header .n1 .d2 .d21 .a1:hover{
 
 header .n1 .d2 .d20{
     width: 300px;
+    height: 480px;
     display: block;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 50px;
     align-items: center;
+    overflow: scroll;
     /* border: 1px solid red; */
 }
 
@@ -181,7 +185,7 @@ header .n1 .d2 .d20 .d2001 img{
 
 header .n2{
     width: 1090px;
-    height: 620px;
+    height: 710px;
     background-color: #545459;
     /* border: 1px solid red; */
 }
@@ -192,10 +196,10 @@ header .n2::before{
     width: 100%;
     height: 180px;
     background: url('bg.png');
-    background-size: 225px;
+    background-size: 245px;
     background-repeat: no-repeat;
-    margin-left: 775px;
-    margin-top: 75px;
+    margin-left: 768px;
+    margin-top: 92px;
     z-index: 0;
     /* border: 1px solid red; */
 }
@@ -204,7 +208,7 @@ header .n2 nav{
     width: 100%;
     display: flex;
     /* border: 1px solid #000; */
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 header .n2 nav .n20{
@@ -261,7 +265,7 @@ header .n2 .hr{
     height: 2px;
     background-color: #000;
     margin-left: 5%;
-    margin-top: 10px;
+    margin-top: 15px;
     /* border: 1px solid red; */
 }
 
@@ -272,7 +276,7 @@ header .n2 .d3{
     margin-top: 10px;
     font-family: 'Roboto Mono', monospace;
     /* border: 1px solid #fff; */
-    /* padding-top: 20px; */
+    padding-top: 20px;
 
 }
 
@@ -332,7 +336,7 @@ header .n2 .d3 .hr{
 }
 
 header .n2 .d4{
-    margin-top: -40px;
+    margin-top: -35px;
     /* border: 1px solid red; */
     display: block;
 }
@@ -398,7 +402,7 @@ header .n2 .d4 .d42 div h4{
 }
 
 header .n2 .d5{
-    margin-top: 10px;
+    margin-top: 25px;
     /* border: 1px solid red; */
     display: block;
 }
@@ -464,7 +468,7 @@ header .n2 .d5 .d42 div h4{
 }
 
 footer{
-    position: fixed;
+    position: relative;
     width: 1440px;
     height: 80px;
     background-color: #000;
