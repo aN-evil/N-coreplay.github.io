@@ -15,6 +15,6 @@ let songs = [
         name: 'Darkside',
         path: 'songs/Darkside.mp3',
         artist: 'Taylor Swift',
-        cover: 'img/ar/TT.jpg',
+        cover: 'img/ar/TT.jpeg',
     },  
 ]

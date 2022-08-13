@@ -503,7 +503,8 @@ footer .text{
 }
 
 footer .music-name{
-    font-size: 22.5px;
+    width: 120px;
+    font-size: 17px;
     font-weight: 500;
     color: #fff;
     overflow: hidden;
@@ -549,7 +550,7 @@ footer .song-slider input{
     height: 5px;
     border-radius: 10px;
     margin-top: 20px;
-    background-color: #a4a8b4;
+    background-color: #303034;
     overflow: hidden;
     cursor: pointer;
     /* border: 1px solid #fff; */
@@ -560,8 +561,8 @@ footer .song-slider input::-webkit-slider-thumb{
     width: 1px;
     height: 20px;
     border-radius: 50%;
-    background: #303034;
-    box-shadow: -400px 0 0 400px #303034;
+    background: #a4a8b4;
+    box-shadow: -400px 0 0 400px #a4a8b4;
 }
 
 footer .song-slider span{
@@ -596,7 +597,7 @@ footer .vol-bar div input{
     height: 5px;
     border-radius: 10px;
     margin: 15px;
-    background-color: #a4a8b4;
+    background-color: #303034;
     overflow: hidden;
     cursor: pointer;
     /* border: 1px solid #fff; */
@@ -607,8 +608,8 @@ footer .vol-bar div input::-webkit-slider-thumb{
     width: 1px;
     height: 20px;
     border-radius: 50%;
-    background: #303034;
-    box-shadow: -400px 0 0 400px #303034;
+    background: #a4a8b4;
+    box-shadow: -400px 0 0 400px #a4a8b4;
 }
 
 footer .vol-bar i{
