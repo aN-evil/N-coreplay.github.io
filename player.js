@@ -13,6 +13,8 @@ const musicDuration = document.querySelector('.song-time');
 const playBtm = document.querySelector('#play');
 const forwardBtm = document.querySelector('#next');
 const backwardBtm = document.querySelector('#back');
+const volume = document.querySelector('.sound-bar');
+const volBtm = document.querySelector('#vol');
 
 
 const setMusic = (i) => {
@@ -104,3 +106,8 @@ setInterval(() => {
     playMusic();
     // disk.classList.toggle('play');
  })
+
+volume.addEventListener('change', function(e){
+    music.volume = e.currentTarget.value / 100;
+})
+
