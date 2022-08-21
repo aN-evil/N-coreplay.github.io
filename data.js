@@ -6,6 +6,18 @@ let songs = [
         cover: 'img/song/reput.jpg',
     },
     {
+        name: 'Pepas',
+        path: 'songs/Pepas.mp3',
+        artist: 'pepas',
+        cover: 'img/song/pepas.jpeg',
+    },
+    {
+        name: 'Danza Kuduro',
+        path: 'songs/Danza Kuduro.mp3',
+        artist: 'FF5',
+        cover: 'img/song/DK.jpeg',
+    },
+    {
         name: 'Alon',
         path: 'songs/Alone.mp3',
         artist: 'Alan Wakar',
@@ -18,23 +30,11 @@ let songs = [
         cover: 'img/ar/oti.jpeg',
     },
     {
-        name: 'Danza Kuduro',
-        path: 'songs/Danza Kuduro.mp3',
-        artist: 'FF5',
-        cover: 'img/song/DK.jpeg',
-    },
-    {
         name: 'Darkside',
         path: 'songs/Darkside.mp3',
         artist: 'Alan Wakar',
         cover: 'img/ar/alan.jpg',
-    },  
-    {
-        name: 'Galway Girl',
-        path: 'songs/Galway Girl.mp3',
-        artist: 'Ed Sheeran',
-        cover: 'img/ar/ed.jpeg',
-    },  
+    },    
     {
         name: 'Maps',
         path: 'songs/Maps.mp3',
@@ -60,14 +60,14 @@ let songs = [
         cover: 'img/ar/dua.jpeg',
     },
     {
-        name: 'Pepas',
-        path: 'songs/Pepas.mp3',
-        artist: 'pepas',
-        cover: 'img/song/pepas.jpeg',
-    },
-    {
         name: 'Perfect',
         path: 'songs/Perfect.mp3',
+        artist: 'Ed Sheeran',
+        cover: 'img/ar/ed.jpeg',
+    },
+    {
+        name: 'Galway Girl',
+        path: 'songs/Galway Girl.mp3',
         artist: 'Ed Sheeran',
         cover: 'img/ar/ed.jpeg',
     },

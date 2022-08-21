@@ -110,3 +110,14 @@ setInterval(() => {
 volume.addEventListener('change', function(e){
     music.volume = e.currentTarget.value / 100;
 })
+
+const home = document.querySelector('#home');
+
+home.addEventListener('click', () =>{
+    window.location.href = "home.html";
+})
+const log = document.querySelector('.log');
+
+log.addEventListener('click', () =>{
+    window.location.href = "home.html";
+})

@@ -189,6 +189,7 @@ header .n2{
     height: 710px;
     background-color: #545459;
     /* border: 1px solid red; */
+    /* overflow: scroll; */
 }
 
 header .n2::before{
@@ -403,7 +404,7 @@ header .n2 .d4 .d42 div h4{
 }
 
 header .n2 .d5{
-    margin-top: 25px;
+    margin-top: 1px;
     /* border: 1px solid red; */
     display: block;
 }
