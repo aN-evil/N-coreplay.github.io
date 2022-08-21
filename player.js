@@ -110,4 +110,3 @@ setInterval(() => {
 volume.addEventListener('change', function(e){
     music.volume = e.currentTarget.value / 100;
 })
-
